@@ -6,7 +6,8 @@
 package crossca;
 
 import Database.database;
-
+import cacrossmodule.Determinant;
+import cacrossmodule.CaCrossModule;
 
 /**
  *
@@ -20,8 +21,10 @@ public class CrossCA {
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
         
-        database db = new database();
-        db.menu();
+       database db = new database();
+       db.remove();
+       Determinant dt = new Determinant();
+     
     }
     
      
